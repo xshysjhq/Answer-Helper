@@ -1,0 +1,21 @@
+# 本地隐私 / 运行时文件（含 API Key 与日志，切勿提交）
+ocr_config.json
+log.txt
+models/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# 打包产物
+build/
+dist/
+*.zip
+
+# IDE
+.idea/
+.vscode/
+
+# 旧仓库历史备份（不推送）
+.git_old/
